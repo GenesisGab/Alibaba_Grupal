@@ -9,6 +9,7 @@ import {revisarusuario} from "./componentes/login.js"
 
 
 /* CONEXION CON EL DISEÑO DEL MENU */
+import{header} from "./componentes/menu.js"
 
 
 /* CONEXION CON EL DISEÑO DEL FOOTER */
