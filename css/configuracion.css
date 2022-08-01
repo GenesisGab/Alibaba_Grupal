@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+:root{
+
+    /* variables de color*/
+    --background: #fb953d;
+    --gris1: #313131;
+    --gris2: #777777;
+    --gris3: #A5A5A5;
+    --gris4: #CACACA;
+    --gris5: #F5F6FC;
+  
+
+/* tamaños de fuente */
+--size-h1: 3.4rem;
+--size-h2: 2.6rem;
+--size-h3: 2rem;
+--size-parrafo: 1.6rem;
+}
+
+.composiscion{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-administrador{
+    
+    display: none;
+}
+
+/* Activador de elementos*/
+.activar-block {
+    display: grid;
+   
+}
+.activar-flex {
+    display: flex;
+}
+.desactivar {
+    display: none;
+}
+
