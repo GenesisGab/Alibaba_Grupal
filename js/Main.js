@@ -13,7 +13,7 @@ import{header} from "./componentes/menu.js"
 
 
 /* CONEXION CON EL DISEÑO DEL FOOTER */
-
+import {footer} from "./componentes/footer.js";
 
 /********CONEXION CON ARCHIVOS DE LA DATA*********/
 import{crearCuadro} from "./componentes/user1.js";
