@@ -1,8 +1,3 @@
-/*****
- * 
- * 
- */
-
  export let order_products = [
 
     //order_id	product_id	option_id	quantity

@@ -1,10 +1,3 @@
-/*****
- * 
- * 
- */
-
-
-
 export let orders_user = [
 
     //user_id	order_id

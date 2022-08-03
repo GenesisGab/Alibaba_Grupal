@@ -1,7 +1,3 @@
-/*****
- * 
- * 
- */
  export let product_vendor = [
 
     //vendor_id	product_id

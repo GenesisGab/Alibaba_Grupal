@@ -1,9 +1,4 @@
-/*****
- * 
- * 
- */
-
- export let orders_creditcard = [
+export let orders_creditcard = [
 
     //credit_card_number	order_id
 
