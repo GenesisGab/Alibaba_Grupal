@@ -12,7 +12,7 @@ import {revisarusuario} from "./componentes/login.js"
 
 
 /* CONEXION CON EL DISEÑO DEL FOOTER */
-
+import {footer} from "./componentes/footer.js";
 
 function recuperar_datos(e) {
     e.preventDefault(); //<-- Evita que el formulario se recargue
