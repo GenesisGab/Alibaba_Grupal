@@ -9,6 +9,7 @@ import {revisarusuario} from "./componentes/login.js"
 import {panel}from "./componentes/panel.js"//<-- Diseño del panel de informacion
 
 /* CONEXION CON EL DISEÑO DEL MENU */
+import{header} from "./componentes/menu.js"
 
 
 /* CONEXION CON EL DISEÑO DEL FOOTER */
