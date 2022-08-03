@@ -9,7 +9,7 @@ export function header (){
             '<nav>'+
             '<a href="" class="nav-link">My alibaba</a>'+
             '<a href="" class="nav-link">Orders</a>'+
-            '<a href="" class="nav-link">Cart</a>'+
+            '<a href="" class="nav-link">Cerrar sesión</a>'+
             '</nav>';
        
 }
