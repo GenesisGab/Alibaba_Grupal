@@ -1,5 +1,5 @@
 /* MADE FOR GENESIS */
-let option = [
+export let option = [
   
     {
         option_id: 1201,	
