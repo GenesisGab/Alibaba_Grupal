@@ -1,0 +1,24 @@
+#padre{
+    overflow: scroll;
+}
+#hijosUser{
+    width: 20rem;
+    height: 20rem;
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1.5rem;
+
+}
+
+.lista{
+    color:black;    
+    text-align:center;
+    font-size:15px;
+    list-style: none;
+}
+
+b{
+    color: rgb(210, 114, 34);
+}

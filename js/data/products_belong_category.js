@@ -1,7 +1,7 @@
 /*NATALI*/
 
 
-let products_category = [
+export let products_category = [
     
     //product_id	category_id
 

@@ -1,7 +1,14 @@
 /* Elementos del dom */
 //import {section_administrador, section_login} from './login.js';
 import { section_administrador, section_login} from './login.js';
-export function administrador(){
+
+import { datosUsuario, panel } from './panel.js';
+
+export let usuario1;
+export let password1;
+
+
+export function administrador(usuario,password){
     
     alert('LAS CREDENCIALES INGRESADAS SON VALIDAS');
 
@@ -11,4 +18,6 @@ export function administrador(){
 
     section_administrador.classList.add("activar-block");
     section_login.classList.remove("activar-flex");
+
+    datosUsuario(usuario,password);
 }

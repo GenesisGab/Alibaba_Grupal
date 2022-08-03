@@ -40,7 +40,7 @@ export function revisarusuario(usuario, password){
             alert('* Acceso con usuario valido *');
             i=user_ob.length;
 
-            administrador();
+            administrador(usuario,password);
             
           }else{
             console.log("Contraseña no valida");
@@ -53,7 +53,7 @@ export function revisarusuario(usuario, password){
                 alert("* Acceso con email valido *"); //Msj que indica al usuario que su correo es valido
                 i=user_ob.length;
                 
-                administrador();
+                administrador(usuario,password);
             }
 
         } 
@@ -63,3 +63,4 @@ export function revisarusuario(usuario, password){
 }
 
 revisarusuario();
+

@@ -1,7 +1,7 @@
 /*NATALI*/
 
 
-let shoppingCart = [
+export let shoppingCart = [
 
     //shopping_cart_id 	status
 

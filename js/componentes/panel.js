@@ -1,4 +1,22 @@
 /** GÉNESIS */
+import { user_ob } from "../data/user.js";
+
+export function datosUsuario(usuario){
+    for(let i = 0; i<user_ob.length; i++){
+        if(usuario == user_ob[i].nikname){
+
+            let usuarioInfo = document.querySelector("#nombre");
+
+            usuarioInfo.innerHTML = 
+                    
+                    '<h1>'+'<b class="user">'+'Nikname: '+'<b>'+'<b class="ingresadoUser">'+user_ob[i].nikname+ '</b>'+'</h1>'+
+                    '<h1>'+'<b class="user">'+'Name: '+'</b>'+'<b class="ingresadoUser">'+user_ob[i].name+ '</b>'+'</h1>';
+        }
+
+    }
+}
+
+
 
 //CREACION DEL PANEL
 export function panel (){
@@ -7,6 +25,7 @@ export function panel (){
    //CREACION DE LOS DIV PARA EL PANEL
     root.innerHTML = 
         '<div class="despliegue_subtitulo">Set de datos</div>'+
+        '<div class="nameUser" id="nombre"></div>'+
         '<div class="elementos" id="bt_user">User</div>'+
         '<div class="elementos" id="bt_userCredit">User has creditcard</div>'+
         '<div class="elementos" id="bt_vendor">Vendor</div>'+

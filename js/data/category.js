@@ -1,7 +1,7 @@
 /*NATALI*/
 
 
-let category = [
+export let category = [
 
     //category_id 	category_name <-- Nombre
 

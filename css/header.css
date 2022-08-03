@@ -17,6 +17,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    box-shadow: 2px 2px 5px #999;
 }
 
 .logo img{

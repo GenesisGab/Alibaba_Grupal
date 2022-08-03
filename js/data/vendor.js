@@ -1,7 +1,7 @@
 /*NATALI*/
 
 
-let vendor =[
+export let vendor =[
 
     //vendor_id 	vendor_name 	vendor_phone 	vender_email
 

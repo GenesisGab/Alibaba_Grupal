@@ -22,6 +22,18 @@
 
     text-align: center;
 }
+.nameUser{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.user{
+    color: #8c581d;
+}
+
+.ingresadoUser{
+    color: rgb(56, 56, 56);
+}
 .elementos{
     width: 21.8rem;
     height: 3.8rem;
