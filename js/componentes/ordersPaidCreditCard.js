@@ -39,3 +39,27 @@ export function orderPaidCrediCard(){
 };
 
 bt_orderCredit.addEventListener('click',orderPaidCrediCard);//<--Este
+
+
+var activarse = document.getElementById("bt_orderCredit");
+
+//FUNCIÓN PARA ABRIR Y CERRAR LA VENTANA
+export function ActivarDesactivar8() {    
+        
+    var explorer = document.getElementById("padre");
+    
+    console.log("valor x",explorer);
+
+    //Activa y desactiva la ventana
+    if (explorer.style.display === "none") {
+        explorer.style.display = "block";
+        
+    } else {
+        explorer.style.display = "none";
+        document.getElementById("padre").innerHTML='';
+    }
+
+}
+
+/* EVENTO */
+activarse.addEventListener('click', ActivarDesactivar8);

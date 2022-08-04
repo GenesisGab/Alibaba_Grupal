@@ -14,9 +14,9 @@ export function crearVendor(){
     vendor.forEach(function(user1){
         console.log("Nombre: ", user1.user_id);
 
-        let cuadros1 = document.createElement("div");
+        let cuadros = document.createElement("div");
 
-        cuadros1.innerHTML =
+        cuadros.innerHTML =
       
             '<ol class="lista">'+
                 '<li>'+'<b>'+'Vendor id: '+'</b>'+user1.vendor_id+'</li>'+
@@ -30,10 +30,34 @@ export function crearVendor(){
         // let hijos = document.querySelector("#hijosUser");
         // console.log(hijos);
 
-        root.appendChild(cuadros1);
+        root.appendChild(cuadros);
     })
 
 
 };
 
 bt_vendor.addEventListener('click',crearVendor);//<--Este
+
+
+var activarse = document.getElementById("bt_vendor");
+
+//FUNCIÓN PARA ABRIR Y CERRAR LA VENTANA
+export function ActivarDesactivar3() {    
+        
+    var explorer = document.getElementById("padre");
+    
+    console.log("valor x",explorer);
+
+    //Activa y desactiva la ventana
+    if (explorer.style.display === "none") {
+        explorer.style.display = "block";
+        
+    } else {
+        explorer.style.display = "none";
+        document.getElementById("padre").innerHTML='';
+    }
+
+}
+
+/* EVENTO */
+activarse.addEventListener('click', ActivarDesactivar3);

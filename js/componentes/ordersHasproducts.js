@@ -37,3 +37,28 @@ export function mostrarHasProduct(){
 };
 
 bt_orderProduct.addEventListener('click',mostrarHasProduct);//<--Este
+
+
+
+var activarse = document.getElementById("bt_orderProduct");
+
+//FUNCIÓN PARA ABRIR Y CERRAR LA VENTANA
+export function ActivarDesactivar7() {    
+        
+    var explorer = document.getElementById("padre");
+    
+    console.log("valor x",explorer);
+
+    //Activa y desactiva la ventana
+    if (explorer.style.display === "none") {
+        explorer.style.display = "block";
+        
+    } else {
+        explorer.style.display = "none";
+        document.getElementById("padre").innerHTML='';
+    }
+
+}
+
+/* EVENTO */
+activarse.addEventListener('click', ActivarDesactivar7);

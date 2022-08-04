@@ -31,33 +31,21 @@ export function revisarusuario(usuario, password){
     /* Con un for se recorre la Base de Datos de Usuarios para validar las
     credenciales ingresadas */
     
-    for (let i=0;i<user_ob.length;i++){ //Valida si el user ingresado se encuentra en la BD
-
-        if(usuario===user_ob[i].nikname){
-                    
-          if(password===user_ob[i].password){
-            
-            alert('* Acceso con usuario valido *');
-            i=user_ob.length;
-
-            administrador(usuario,password);
-            
-          }else{
-            console.log("Contraseña no valida");
-         }
-                      
-        } else if(usuario===user_ob[i].email){  //Valida si el email ingresado se encuentra en la BD
-
-            if(password===user_ob[i].password){
-                
-                alert("* Acceso con email valido *"); //Msj que indica al usuario que su correo es valido
-                i=user_ob.length;
-                
-                administrador(usuario,password);
-            }
-
-        } 
-               
+    for(let i=0;i<user_ob.length;i++){
+      if(usuario==user_ob[i].nikname){
+        if(password==user_ob[i].password){
+          administrador(usuario,password);
+        }else{
+          alert("EL USUARIO O PASSWORD NO ES VALIDO");
+        }
+      }else if(usuario==user_ob[i].email){
+        if (password==user_ob[i].password){
+          administrador(usuario,password);
+        }else{
+          alert("EL CORREO O PASSWORD NO ES VALIDO");
+        }
+      }
+      
     }
  
 }

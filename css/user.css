@@ -1,16 +1,4 @@
-#padre{
-    overflow: scroll;
-}
-#hijosUser{
-    width: 20rem;
-    height: 20rem;
-  
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 1.5rem;
 
-}
 
 .lista{
     color:black;    
@@ -21,4 +9,8 @@
 
 b{
     color: rgb(210, 114, 34);
+}
+
+.desactivar{
+    display: none;
 }

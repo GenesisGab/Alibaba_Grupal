@@ -21,7 +21,6 @@ export function crearCuadro(){
 
 
         cuadros.innerHTML =
-
             '<ol class="lista" id="1">'+
                 '<li>'+'<b>'+'Id: '+'</b>'+user.id+'</li>'+
                 '<li>'+'<b>'+'Name: '+'</b>'+user.name+'</li>'+
@@ -33,8 +32,8 @@ export function crearCuadro(){
             '<br>'+
             '<br>';
 
-        let hijos = document.querySelector("#hijosUser");
-        console.log(hijos);
+        // let hijos = document.querySelector("#hijosUser");
+        // console.log(hijos);
 
         root.appendChild(cuadros);
     })
@@ -43,3 +42,28 @@ export function crearCuadro(){
 };
 
 bt_ver.addEventListener('click',crearCuadro);//<--Este
+
+
+
+var activarse = document.getElementById("bt_user");
+
+//FUNCIÓN PARA ABRIR Y CERRAR LA VENTANA
+export function ActivarDesactivar() {    
+        
+    var explorer = document.getElementById("padre");
+    
+    console.log("valor x",explorer);
+
+    //Activa y desactiva la ventana
+    if (explorer.style.display === "none") {
+        explorer.style.display = "block";
+        
+    } else {
+        explorer.style.display = "none";
+        document.getElementById("padre").innerHTML='';
+    }
+
+}
+
+/* EVENTO */
+activarse.addEventListener('click', ActivarDesactivar);

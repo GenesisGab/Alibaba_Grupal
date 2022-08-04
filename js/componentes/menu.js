@@ -7,8 +7,8 @@ export function header (){
             '<img src="https://1000marcas.net/wp-content/uploads/2020/03/logo-Alibaba.png" alt="logo alibaba">'+
             '</a>'+
             '<nav>'+
-            '<a href="" class="nav-link">My alibaba</a>'+
-            '<a href="" class="nav-link">Orders</a>'+
+            '<a class="nav-link">My alibaba</a>'+
+            '<a class="nav-link">Orders</a>'+
             '<a href="" class="nav-link">Cerrar sesión</a>'+
             '</nav>';
        

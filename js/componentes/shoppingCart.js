@@ -38,3 +38,27 @@ export function crearShoppingCart(){
 };
 
 bt_shoppingcart.addEventListener('click',crearShoppingCart);//<--Este
+
+
+var activarse = document.getElementById("bt_shoppingcart");
+
+//FUNCIÓN PARA ABRIR Y CERRAR LA VENTANA
+export function ActivarDesactivar15() {    
+        
+    var explorer = document.getElementById("padre");
+    
+    console.log("valor x",explorer);
+
+    //Activa y desactiva la ventana
+    if (explorer.style.display === "none") {
+        explorer.style.display = "block";
+        
+    } else {
+        explorer.style.display = "none";
+        document.getElementById("padre").innerHTML='';
+    }
+
+}
+
+/* EVENTO */
+activarse.addEventListener('click', ActivarDesactivar15);

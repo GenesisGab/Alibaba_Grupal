@@ -11,6 +11,14 @@ export function datosUsuario(usuario){
                     
                     '<h1>'+'<b class="user">'+'Nikname: '+'<b>'+'<b class="ingresadoUser">'+user_ob[i].nikname+ '</b>'+'</h1>'+
                     '<h1>'+'<b class="user">'+'Name: '+'</b>'+'<b class="ingresadoUser">'+user_ob[i].name+ '</b>'+'</h1>';
+        }else if(usuario==user_ob[i].email){
+            let usuarioInfo = document.querySelector("#nombre");
+
+            usuarioInfo.innerHTML = 
+                    
+                    '<h1>'+'<b class="user">'+'Nikname: '+'<b>'+'<b class="ingresadoUser">'+user_ob[i].email+ '</b>'+'</h1>'+
+                    '<h1>'+'<b class="user">'+'Name: '+'</b>'+'<b class="ingresadoUser">'+user_ob[i].name+ '</b>'+'</h1>';
+
         }
 
     }

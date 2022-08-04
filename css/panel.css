@@ -63,10 +63,16 @@
 
 /*****************************************************/
 /************* CUADRO DE CONTENIDO  *****************/
-
 .recuadro{
     width: 70%;
     height: 100vh;
+   
     margin: auto;
-    border-radius: 10px;
+    
+    display: none;
+    overflow: scroll;
+}
+
+.ventanaActivate{
+    display: block;
 }

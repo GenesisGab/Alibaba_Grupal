@@ -16,21 +16,22 @@ import{header} from "./componentes/menu.js"
 import {footer} from "./componentes/footer.js";
 
 /********CONEXION CON ARCHIVOS DE LA DATA*********/
-import{crearCuadro} from "./componentes/user1.js";
-import {crearCarts} from "./componentes/carts.js";
-import {crearVendor} from "./componentes/vendor1.js";
-import {crearOption} from "./componentes/option1.js";
-import {crearProducts} from "./componentes/products.js";
-import {crearProductCategory} from "./componentes/productsCategory.js";
-import {crearProductOption} from "./componentes/productsHasOptions.js";
-import {crearShoppingCart} from "./componentes/shoppingCart.js";
-import {cartsHasProducts} from "./componentes/cartsHasProducts.js";
-import {category1} from "./componentes/category1.js";
-import {orderPaidCrediCard} from "./componentes/ordersPaidCreditCard.js";
-import {orderPlacedUser} from "./componentes/orderPlacedUser.js";
-import {mostrarOrder} from "./componentes/orders1.js";
-import {mostrarHasProduct} from "./componentes/ordersHasproducts.js";
-import {crearSoldVendor} from "./componentes/producSoldVendor.js";
+import{ActivarDesactivar} from "./componentes/user1.js";
+import {ActivarDesactivar2} from "./componentes/carts.js";
+import {ActivarDesactivar3} from "./componentes/vendor1.js";
+import {ActivarDesactivar4} from "./componentes/category1.js";
+import {ActivarDesactivar5} from "./componentes/option1.js";
+import {ActivarDesactivar6} from "./componentes/orders1.js";
+import {ActivarDesactivar7} from "./componentes/ordersHasproducts.js";
+import {ActivarDesactivar8} from "./componentes/ordersPaidCreditCard.js";
+import {ActivarDesactivar9} from "./componentes/orderPlacedUser.js";
+import {ActivarDesactivar10} from "./componentes/products.js";
+import {ActivarDesactivar11} from "./componentes/productsCategory.js";
+import {ActivarDesactivar12} from "./componentes/productsHasOptions.js";
+import {ActivarDesactivar13} from "./componentes/producSoldVendor.js";
+import {ActivarDesactivar14} from "./componentes/cartsHasProducts.js";
+import {ActivarDesactivar15} from "./componentes/shoppingCart.js";
+
 
 function recuperar_datos(e) {
     e.preventDefault(); //<-- Evita que el formulario se recargue
