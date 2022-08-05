@@ -78,5 +78,14 @@ export let user_ob = [
         adress: '1252 Vine St, Chicago, IL 73215',	       
         email: 'wendy.west@gmail.com', 	
         phone: 6645936156,
+    },
+      {
+        id: 107,	
+        nikname: 'jefuentes',	    
+        password:'12345',	    
+        name: 'Wendy West',	    
+        adress: '1252 Vine St, Chicago, IL 73215',	       
+        email: 'wendy.west@gmail.com', 	
+        phone: 6645936156,
     }
 ]
