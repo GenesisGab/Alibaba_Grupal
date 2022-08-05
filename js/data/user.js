@@ -61,16 +61,6 @@ export let user_ob = [
     },
 
     {
-        id: 1,	
-        nikname: '1',	    
-        password: '1',	    
-        name: 'Sophie Sutton',	
-        adress: '1896 West Dr, Portland, OR 65842',	        
-        email: '1',	
-        phone: 5169525614,
-    },
-
-    {
         id: 106,	
         nikname: 'wendy6',	    
         password:'purple06',	    
@@ -79,4 +69,5 @@ export let user_ob = [
         email: 'wendy.west@gmail.com', 	
         phone: 6645936156,
     }
+
 ]

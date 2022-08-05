@@ -9,8 +9,6 @@ export let password1;
 
 
 export function administrador(usuario,password){
-    
-    alert('LAS CREDENCIALES INGRESADAS SON VALIDAS');
 
     console.log("administrador:",section_administrador);
     console.log("login:",section_login);

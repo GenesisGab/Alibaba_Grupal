@@ -130,3 +130,8 @@
 
     transition: 0.7s;    
 }
+.noValido{
+    font-size: 1.3rem;
+    color: red;
+    text-align: center;
+}
